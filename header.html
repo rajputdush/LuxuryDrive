@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utils.css" />
+    <link rel="stylesheet" href="style1.css">   
+</head>
+<body>
+    <header class="heading">
+        <div class="sidebar">
+            <button class="login" type="button">Sign in</button>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <navbar class="navbar">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </navbar>
+        <p><a href="index.html">Luxury Drive<span>.Com</span></a></p>
+        <!-- <input aria-label="Search"> -->
+         <div class="searchContainer">
+        <input type="text" placeholder="Search..">
+    </div>
+        <div class="searchIcon" id="searchToggle">
+        <svg width="24" height="24" viewBox="0 0 24 24" background="transparent" stroke="white" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <circle cx="11" cy="11" r="7" stroke="white" stroke-width="2" />
+            <line x1="16" y1="16" x2="22" y2="22" stroke="white" stroke-width="2" />
+        </svg>
+    </div>
+        <!-- </input>   -->
+        <button class="login" type="button">Sign in</button>
+    </header>
+    <div class="loginmodal">
+        <div class="loginHeader">
+            <span class="close">&times;</span>
+            <div class="header">
+                <p>Login</p>
+                <p>New User? <a href="">Sign Up</a></p>
+            </div>
+            <div class="Details">
+                <label for="uname"><b>Username or Email</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required />
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required />
+
+                <div class="remember">
+                    <input type="checkbox" checked="checked" name="remember" />
+                    <label>Remember Me
+                    </label>
+
+                    <p class="forgotpass">Forgot password?</p>
+
+                </div>
+                <button class="submit" type="submit">Login</button>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
